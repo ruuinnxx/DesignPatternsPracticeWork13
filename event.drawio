@@ -1,9 +1,101 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.4">
   <diagram name="Страница-1" id="nTykvW9DPcACmUXjyPPv">
-    <mxGraphModel>
+    <mxGraphModel dx="1489" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="nKOMtrEtGMf1HlW5vNO5-1" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Система управления бронированием мероприятий" vertex="1">
+          <mxGeometry height="507" width="1260" x="355" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nKOMtrEtGMf1HlW5vNO5-2" parent="1" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;" value="Гость" vertex="1">
+          <mxGeometry height="62" width="55" x="922" y="562" as="geometry" />
+        </mxCell>
+        <mxCell id="nKOMtrEtGMf1HlW5vNO5-3" parent="1" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;" value="Зарегистрированный&#xa;пользователь" vertex="1">
+          <mxGeometry height="91" width="285" x="20" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="nKOMtrEtGMf1HlW5vNO5-4" parent="1" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;" value="Администратор" vertex="1">
+          <mxGeometry height="77" width="129" x="885" y="674" as="geometry" />
+        </mxCell>
+        <mxCell id="nKOMtrEtGMf1HlW5vNO5-5" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Просмотр мероприятий" vertex="1">
+          <mxGeometry height="54" width="234" x="1343" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="nKOMtrEtGMf1HlW5vNO5-6" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Бронирование мероприятия" vertex="1">
+          <mxGeometry height="78" width="260" x="820" y="99" as="geometry" />
+        </mxCell>
+        <mxCell id="nKOMtrEtGMf1HlW5vNO5-7" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Отмена бронирования" vertex="1">
+          <mxGeometry height="54" width="225" x="380" y="252" as="geometry" />
+        </mxCell>
+        <mxCell id="nKOMtrEtGMf1HlW5vNO5-8" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Управление мероприятиями&#xa;(добавление/редактирование/удаление)" vertex="1">
+          <mxGeometry height="150" width="260" x="1330" y="214" as="geometry" />
+        </mxCell>
+        <mxCell id="nKOMtrEtGMf1HlW5vNO5-9" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Просмотр всех бронирований" vertex="1">
+          <mxGeometry height="78" width="260" x="1330" y="414" as="geometry" />
+        </mxCell>
+        <mxCell id="nKOMtrEtGMf1HlW5vNO5-10" edge="1" parent="1" source="nKOMtrEtGMf1HlW5vNO5-2" style="curved=1;startArrow=none;endArrow=block;exitX=0.87;exitY=0;entryX=0;entryY=0.98;rounded=0;" target="nKOMtrEtGMf1HlW5vNO5-5" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1205" y="193" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nKOMtrEtGMf1HlW5vNO5-11" edge="1" parent="1" source="nKOMtrEtGMf1HlW5vNO5-3" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.12;entryX=0.12;entryY=0;rounded=0;" target="nKOMtrEtGMf1HlW5vNO5-5" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="60" />
+              <mxPoint x="1205" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nKOMtrEtGMf1HlW5vNO5-12" edge="1" parent="1" source="nKOMtrEtGMf1HlW5vNO5-3" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.56;entryX=0;entryY=0.28;rounded=0;" target="nKOMtrEtGMf1HlW5vNO5-6" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="107" />
+              <mxPoint x="712" y="107" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nKOMtrEtGMf1HlW5vNO5-13" edge="1" parent="1" source="nKOMtrEtGMf1HlW5vNO5-3" style="curved=1;startArrow=none;endArrow=block;exitX=0.65;exitY=1.01;entryX=0;entryY=0.5;rounded=0;" target="nKOMtrEtGMf1HlW5vNO5-7" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="279" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nKOMtrEtGMf1HlW5vNO5-14" edge="1" parent="1" source="nKOMtrEtGMf1HlW5vNO5-4" style="curved=1;startArrow=none;endArrow=block;exitX=0.66;exitY=0;entryX=0.11;entryY=1;rounded=0;" target="nKOMtrEtGMf1HlW5vNO5-5" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1205" y="213" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nKOMtrEtGMf1HlW5vNO5-15" edge="1" parent="1" source="nKOMtrEtGMf1HlW5vNO5-4" style="curved=1;startArrow=none;endArrow=block;exitX=0.68;exitY=0;entryX=0;entryY=0.5;rounded=0;" target="nKOMtrEtGMf1HlW5vNO5-8" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1205" y="289" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nKOMtrEtGMf1HlW5vNO5-16" edge="1" parent="1" source="nKOMtrEtGMf1HlW5vNO5-4" style="curved=1;startArrow=none;endArrow=block;exitX=0.8;exitY=0;entryX=0;entryY=0.5;rounded=0;" target="nKOMtrEtGMf1HlW5vNO5-9" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1205" y="453" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nKOMtrEtGMf1HlW5vNO5-17" edge="1" parent="1" source="nKOMtrEtGMf1HlW5vNO5-6" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.51;rounded=0;" target="nKOMtrEtGMf1HlW5vNO5-5" value="include: просмотр&#xa;мероприятий">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1205" y="138" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nKOMtrEtGMf1HlW5vNO5-18" edge="1" parent="1" source="nKOMtrEtGMf1HlW5vNO5-7" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.25;entryY=1;rounded=0;" target="nKOMtrEtGMf1HlW5vNO5-6" value="extend: бронирование">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="712" y="279" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
