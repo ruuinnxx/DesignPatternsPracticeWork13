@@ -1,9 +1,168 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.4">
   <diagram name="Страница-1" id="VUnkWOmq24OJdb-xtUfN">
-    <mxGraphModel>
+    <mxGraphModel dx="1869" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="CFlmdIAiaAuq65dachnT-1" parent="1" style="ellipse;fillColor=strokeColor;" value="" vertex="1">
+          <mxGeometry height="14" width="14" x="375" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CFlmdIAiaAuq65dachnT-2" parent="1" style="rounded=1;arcSize=20;strokeWidth=2" value="Idle" vertex="1">
+          <mxGeometry height="40" width="43" x="360" y="84" as="geometry" />
+        </mxCell>
+        <mxCell id="CFlmdIAiaAuq65dachnT-3" parent="1" style="rounded=1;arcSize=20;strokeWidth=2" value="CarSelected" vertex="1">
+          <mxGeometry height="40" width="102" x="47" y="198" as="geometry" />
+        </mxCell>
+        <mxCell id="CFlmdIAiaAuq65dachnT-4" parent="1" style="rounded=1;arcSize=20;strokeWidth=2" value="OrderConfirmed" vertex="1">
+          <mxGeometry height="40" width="131" x="112" y="312" as="geometry" />
+        </mxCell>
+        <mxCell id="CFlmdIAiaAuq65dachnT-5" parent="1" style="rounded=1;arcSize=20;strokeWidth=2" value="TripCancelled" vertex="1">
+          <mxGeometry height="40" width="114" x="121" y="588" as="geometry" />
+        </mxCell>
+        <mxCell id="CFlmdIAiaAuq65dachnT-6" parent="1" style="rounded=1;arcSize=20;strokeWidth=2" value="CarArrived" vertex="1">
+          <mxGeometry height="40" width="92" x="188" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="CFlmdIAiaAuq65dachnT-7" parent="1" style="rounded=1;arcSize=20;strokeWidth=2" value="InTrip" vertex="1">
+          <mxGeometry height="40" width="56" x="424" y="588" as="geometry" />
+        </mxCell>
+        <mxCell id="CFlmdIAiaAuq65dachnT-8" parent="1" style="rounded=1;arcSize=20;strokeWidth=2" value="TripCompleted" vertex="1">
+          <mxGeometry height="40" width="121" x="635" y="702" as="geometry" />
+        </mxCell>
+        <mxCell id="CFlmdIAiaAuq65dachnT-9" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry x="628" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="CFlmdIAiaAuq65dachnT-10" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry x="724" y="608" as="geometry" />
+        </mxCell>
+        <mxCell id="CFlmdIAiaAuq65dachnT-11" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry x="635" y="792" as="geometry" />
+        </mxCell>
+        <mxCell id="CFlmdIAiaAuq65dachnT-12" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry x="695" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="CFlmdIAiaAuq65dachnT-13" edge="1" parent="1" source="CFlmdIAiaAuq65dachnT-1" style="curved=1;startArrow=none;;exitX=0.47;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="CFlmdIAiaAuq65dachnT-2" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CFlmdIAiaAuq65dachnT-14" edge="1" parent="1" source="CFlmdIAiaAuq65dachnT-2" style="curved=1;startArrow=none;;exitX=0;exitY=0.61;entryX=0.5;entryY=0;rounded=0;" target="CFlmdIAiaAuq65dachnT-3" value="выбрать авто">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="98" y="161" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CFlmdIAiaAuq65dachnT-15" edge="1" parent="1" source="CFlmdIAiaAuq65dachnT-3" style="curved=1;startArrow=none;;exitX=0.78;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="CFlmdIAiaAuq65dachnT-4" value="подтвердить заказ">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="178" y="275" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CFlmdIAiaAuq65dachnT-16" edge="1" parent="1" source="CFlmdIAiaAuq65dachnT-3" style="curved=1;startArrow=none;;exitX=0.23;exitY=1;entryX=0.1;entryY=0;rounded=0;" target="CFlmdIAiaAuq65dachnT-5" value="отменить заказ">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="20" y="275" />
+              <mxPoint x="20" y="539" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CFlmdIAiaAuq65dachnT-17" edge="1" parent="1" source="CFlmdIAiaAuq65dachnT-4" style="curved=1;startArrow=none;;exitX=0.63;exitY=1;entryX=0.51;entryY=0;rounded=0;" target="CFlmdIAiaAuq65dachnT-6" value="авто прибыло">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="235" y="401" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CFlmdIAiaAuq65dachnT-18" edge="1" parent="1" source="CFlmdIAiaAuq65dachnT-4" style="curved=1;startArrow=none;;exitX=0.32;exitY=1;entryX=0.29;entryY=0;rounded=0;" target="CFlmdIAiaAuq65dachnT-5" value="отменить заказ">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="97" y="401" />
+              <mxPoint x="97" y="539" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CFlmdIAiaAuq65dachnT-19" edge="1" parent="1" source="CFlmdIAiaAuq65dachnT-4" style="curved=1;startArrow=none;endArrow=none;exitX=1;exitY=0.75;entryX=Infinity;entryY=-Infinity;rounded=0;" target="CFlmdIAiaAuq65dachnT-9" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="628" y="401" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CFlmdIAiaAuq65dachnT-20" edge="1" parent="1" source="CFlmdIAiaAuq65dachnT-9" style="curved=1;startArrow=none;endArrow=none;exitX=Infinity;exitY=Infinity;entryX=-Infinity;entryY=-Infinity;rounded=0;" target="CFlmdIAiaAuq65dachnT-10" value="задержка авто / обновить статус">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="628" y="539" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CFlmdIAiaAuq65dachnT-21" edge="1" parent="1" source="CFlmdIAiaAuq65dachnT-10" style="curved=1;startArrow=none;;exitX=-Infinity;exitY=-Infinity;entryX=1;entryY=0.7;rounded=0;" target="CFlmdIAiaAuq65dachnT-4" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="748" y="539" />
+              <mxPoint x="748" y="401" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CFlmdIAiaAuq65dachnT-22" edge="1" parent="1" source="CFlmdIAiaAuq65dachnT-6" style="curved=1;startArrow=none;;exitX=1.01;exitY=0.87;entryX=0.5;entryY=0;rounded=0;" target="CFlmdIAiaAuq65dachnT-7" value="начать поездку">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="452" y="539" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CFlmdIAiaAuq65dachnT-23" edge="1" parent="1" source="CFlmdIAiaAuq65dachnT-6" style="curved=1;startArrow=none;;exitX=0.51;exitY=1;entryX=0.64;entryY=0;rounded=0;" target="CFlmdIAiaAuq65dachnT-5" value="отменить заказ">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="235" y="539" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CFlmdIAiaAuq65dachnT-24" edge="1" parent="1" source="CFlmdIAiaAuq65dachnT-7" style="curved=1;startArrow=none;;exitX=0.5;exitY=1;entryX=0;entryY=0.15;rounded=0;" target="CFlmdIAiaAuq65dachnT-8" value="завершить поездку">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="452" y="665" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CFlmdIAiaAuq65dachnT-25" edge="1" parent="1" source="CFlmdIAiaAuq65dachnT-8" style="curved=1;startArrow=none;;exitX=1;exitY=0;entryX=1;entryY=0.56;rounded=0;" target="CFlmdIAiaAuq65dachnT-2" value="оплата успешна / новый заказ">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="868" y="665" />
+              <mxPoint x="868" y="161" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CFlmdIAiaAuq65dachnT-26" edge="1" parent="1" source="CFlmdIAiaAuq65dachnT-5" style="curved=1;startArrow=none;;exitX=1;exitY=0;entryX=0.45;entryY=1;rounded=0;" target="CFlmdIAiaAuq65dachnT-2" value="возврат к ожиданию">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="375" y="539" />
+              <mxPoint x="375" y="161" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CFlmdIAiaAuq65dachnT-27" edge="1" parent="1" source="CFlmdIAiaAuq65dachnT-8" style="curved=1;startArrow=none;endArrow=none;exitX=0.28;exitY=1;entryX=Infinity;entryY=NaN;rounded=0;" target="CFlmdIAiaAuq65dachnT-11" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="635" y="767" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CFlmdIAiaAuq65dachnT-28" edge="1" parent="1" source="CFlmdIAiaAuq65dachnT-11" style="curved=1;startArrow=none;endArrow=none;exitX=Infinity;exitY=Infinity;entryX=Infinity;entryY=Infinity;rounded=0;" target="CFlmdIAiaAuq65dachnT-12" value="проблема с оплатой / повторить попытку">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="635" y="841" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CFlmdIAiaAuq65dachnT-29" edge="1" parent="1" source="CFlmdIAiaAuq65dachnT-12" style="curved=1;startArrow=none;;exitX=Infinity;exitY=Infinity;entryX=0.72;entryY=1;rounded=0;" target="CFlmdIAiaAuq65dachnT-8" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="755" y="841" />
+              <mxPoint x="755" y="767" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
